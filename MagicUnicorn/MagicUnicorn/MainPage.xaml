@@ -6,7 +6,7 @@
 
   <StackLayout>
     <Image Source="unicorn.jpg" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></Image>
-    <Button Text="Press me" HeightRequest="100"></Button>
+    <Button Text="Press me" HeightRequest="100" Clicked="OnButtonClicked" ></Button>
     <Button Text="Do not press me!! I'm serious!!" HeightRequest="100"></Button>
   </StackLayout>
 </ContentPage>

@@ -1,0 +1,11 @@
+Version 1.1
+===========
+
+1. Added button to click
+2. Added button that should not be pressed. Yeah, I know everyone will press it...
+3. Updated the version
+
+Version 2.0
+===========
+
+1. Major Upgrade
