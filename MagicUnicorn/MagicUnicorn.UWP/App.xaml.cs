@@ -53,20 +53,32 @@ namespace MagicUnicorn.UWP
 			// just ensure that the window is active
 			if (rootFrame == null)
 			{
-				// Create a Frame to act as the navigation context and navigate to the first page
-				rootFrame = new Frame();
-
-				rootFrame.NavigationFailed += OnNavigationFailed;
-
-				Xamarin.Forms.Forms.Init(e);
-
-				if (e.PreviousExecutionState == ApplicationExecutionState.Terminated)
-				{
-					//TODO: Load state from previously suspended application
-				}
-
-				// Place the frame in the current Window
-				Window.Current.Content = rootFrame;
+                       _.-**-._
+                    _,(        ),_
+                 .-"   '-^----'   "-.
+              .-'                    '-.
+            .'                          '.
+          .'    __.--**'""""""'**--.__    '.
+         /_.-*"'__.--**'""""""'**--.__'"*-._\
+        /_..-*"'   .-*"*-.  .-*"*-.   '"*-.._\
+       :          /       ;:       \          ;
+       :         :     *  !!  *     :         ;
+        \        '.     .'  '.     .'        /
+         \         '-.-'      '-.-'         /
+      .-*''.                              .'-.
+   .-'      '.                          .'    '.
+  :           '-.        _.._        .-'        '._
+ ;"*-._          '-._  --___ `   _.-'        _.*'  '*.
+:      '.            `"*-.__.-*"`           (        :
+ ;      ;                 *|                 '-.     ;
+  '---*'                   |                    ""--'
+   :                      *|                      :
+   '.                      |                     .'
+     '.._                 *|        ____----.._-'
+      \  """----_____------'-----"""         /
+       \  __..-------.._        ___..---._  /
+       :'"              '-..--''          "';
+        '""""""""""""""""' '"""""""""""""""'
 			}
 
 			if (rootFrame.Content == null)
